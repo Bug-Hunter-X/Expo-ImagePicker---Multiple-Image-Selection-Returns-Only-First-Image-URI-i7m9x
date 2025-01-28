@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library.  When selecting multiple images, only the first selected image's URI is returned in the `selected` array. The rest of the selected images are missing from the result.
